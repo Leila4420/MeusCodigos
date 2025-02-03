@@ -1,0 +1,129 @@
+/*Estilo Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1,6;
+        color: #333333;
+    }
+
+    h1,h2,h3,{
+        color:#333;
+        margin: bottom 20px;
+    }
+
+    a {
+        text-decoration: nome;
+        color: #333;
+    }
+
+    header  {
+        background-color: #2980b9;
+        color: whire;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        list-style: nome;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    nav ul li {
+        font-size: 18px;
+
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    .banner {
+        background-color: #3498db;
+        color: white;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+ .banner button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #3498db;
+    border: nome;
+    font-size: 16px;
+    cursor: pointer;
+ }
+ .banner button:hover {
+    background-color: #2980b9;
+    color: white;
+ }
+
+ .exames {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+ }
+ .exames {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+ }
+
+ .exames img {
+    width: 100%;
+    height: auto;
+ }
+
+ .exames h3{
+    margin: 15px 0;
+ }
+
+ .importancia {
+    padding: 40px 20px;
+    text-align: center;
+ }
+
+  .contati form {
+    display: flex;
+    flex-direction: column;
+    gap: 10´x;
+    max-width: 500px;
+    margin: 0 auto;
+
+ }
+ .contato form input  {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+ }
+ .contato form button {
+    padding: 10px;
+    background-color: #2980b9;
+    color: white;
+    border: nome;
+    border-radius: 5px;
+    cursor: pointer;
+
+ }
+ ´contato form button:hover {
+    background-color: #3498db;
+
+ }
+ footer {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 200%;
+    bottom: 0;
+ }
